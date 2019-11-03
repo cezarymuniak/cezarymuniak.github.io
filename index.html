@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl-pl" lang="pl-pl" dir="ltr">
+
+<head>
+	<title>Cezary Muniak</title>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	<!-- add bootstrap css file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="all">
+	<!--lightbox -->
+	<link rel="stylesheet" href="css/lightbox.css">
+	<!-- lightbox -->
+</head>
+
+<body>
+	<!-- nav bar -->
+	<nav class="navbar navbar-expand-lg fixed-top ">
+		<a class="navbar-brand" href="#">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse " id="navbarSupportedContent">
+			<ul class="navbar-nav mr-4">
+
+				<li class="nav-item">
+					<a class="nav-link" data-value="o_mnie" href="#">O mnie</a>
+				</li>
+
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " data-value="portfolio" href="#">
+						Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " data-value="kontakt" href="#">Kontakt</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- header -->
+	<header class="header ">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="description col-lg-6  col-sm-12 float-md-left  ">
+				<h1>
+					Dzień dobry,
+					<p>
+						nazywam się Cezary Muniak. Obecnie jestem początkującym iOS developerem, aspirującym ku
+						poszerzeniu swoich umiejętności każdego dnia.</p>
+				</h1>
+			</div>
+			<div class=" logo col-md-6 col-sm-12 float-right">
+				<img src="images/logo.png" alt="" class="img-fluid">
+			</div>
+		</div>
+	</header>
+
+	<!-- sekcja o mnie -->
+	<div class="about" id="o_mnie">
+		<div class="container">
+			<h1 class="text-center">O mnie</h1>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img src="images/me.jpg" class="img-fluid">
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 desc">
+					<h3>
+						Były uczestnik kursu Java w SDA oraz stypendiów Android Google Developer .
+						<br>
+						<br>
+						Obecne stanowisko : Programista aplikacji mobilnych iOS w 9bits.
+					</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- sekcja portfolio -->
+	<div class="portfolio" id="portfolio">
+		<div class="container">
+			<h1 class="text-center">Projekty na platformę Android zrealizowane z Udacity</h1>
+
+			<!-- galeria -->
+			<div>
+				<div class="container ">
+
+					<div class="row   ">
+						<div class="col-md-3  col-sm-12   pt-2  hover14 column">
+							<div>
+								<a href="images/score.gif" data-lightbox="example-set"
+									data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+									<figure>
+										<img src="images/score.gif" alt=" " class="img-fluid" />
+									</figure>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-3  col-sm-12   pt-2   hover14 column">
+							<div>
+								<a href="images/diabetes.gif" data-lightbox="example-set"
+									data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+									<figure>
+										<img src="images/diabetes.gif" alt=" " class="img-fluid" />
+									</figure>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-3 pt-2   col-sm-12 hover14 column">
+							<div>
+								<a href="images/musical.gif" data-lightbox="example-set"
+									data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+									<figure>
+										<img src="images/musical.gif" alt=" " class="img-fluid" />
+									</figure>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-3 pt-2   col-sm-12  hover14 column">
+							<div>
+								<a href="images/slcom.gif" data-lightbox="example-set"
+									data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+									<figure>
+										<img src="images/slcom.gif" alt=" " class="img-fluid" />
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- galeria -->
+		</div>
+	</div>
+	<!-- Formularz kontaktowy -->
+	<div class="Contact-form" id="kontakt">
+		<div class="container">
+			<form>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<h1>Skontaktuj się ze mną</h1>
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-12 right">
+						<div class="form-group">
+							<input type="text" class="form-control form-control-lg" placeholder="Twoje imię">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control form-control-lg" placeholder="adres@email.pl">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control form-control-lg" placeholder="Wpisz swoją wiadomość."
+								name=""></textarea>
+						</div>
+						<input type="submit" class="btn btn-secondary btn-block" value="Wyślij" name="">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src='js/main.js'></script>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- //js -->
+	<!--  light box js -->
+	<script src="js/lightbox-plus-jquery.min.js"> </script>
+</body>
+
+</html>
